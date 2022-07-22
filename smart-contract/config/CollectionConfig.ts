@@ -16,15 +16,15 @@ const CollectionConfig: CollectionConfigInterface = {
   maxSupply: 200,
   whitelistSale: {
     price: 0.1,
-    maxMintAmountPerTx: 1,
+    maxMintAmountPerTx: 10,
   },
   preSale: {
     price: 0.1,
-    maxMintAmountPerTx: 2,
+    maxMintAmountPerTx: 10,
   },
   publicSale: {
     price: 0.1,
-    maxMintAmountPerTx: 5,
+    maxMintAmountPerTx: 10,
   },
   contractAddress: '0x9851becFfde649e95c5727E8424cc92baa0Ecb71',
   marketplaceIdentifier: 'Tanoti',
