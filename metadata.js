@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const CID = `QmwhateverQmRPQ69hzzXdbCX86qAGX4MeqwP95b8eXmqSUrEqfHHXjy`;
+const CID = `QmdMLQX78WbfHJtqUfGhsebXrTekaMZA5Bt63KTRbg29vC`;
 const TOKEN_COUNT = 200;
 fs.mkdirSync('metadata', { recursive: true });
 for (let i = 1; i <= TOKEN_COUNT; i++) {
