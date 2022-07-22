@@ -7,7 +7,7 @@ for (let i = 1; i <= TOKEN_COUNT; i++) {
   const metadata = {
     id: i,
     name: `Tanoti ${i}`,
-    image: `ipfs://${CID}/${i}`
+    image: `ipfs://${CID}/${i}.jpg`
   }
   fs.writeFileSync(`metadata/${i}`, JSON.stringify(metadata, null, 2), 'utf8');
 }
