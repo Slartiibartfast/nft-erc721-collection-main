@@ -1,7 +1,7 @@
 import NftContractProvider from '../lib/NftContractProvider';
 
 async function main() {
-  if (undefined === process.env.COLLECTION_URI_PREFIX || process.env.COLLECTION_URI_PREFIX === 'ipfs://__CID___/') {
+  if (undefined === process.env.COLLECTION_URI_PREFIX || process.env.COLLECTION_URI_PREFIX === 'ipfs://QmdMLQX78WbfHJtqUfGhsebXrTekaMZA5Bt63KTRbg29vC/') {
     throw '\x1b[31merror\x1b[0m ' + 'Please add the URI prefix to the ENV configuration before running this command.';
   }
 
