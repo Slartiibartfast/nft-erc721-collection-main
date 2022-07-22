@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.1,
     maxMintAmountPerTx: 10,
   },
-  contractAddress: '0x9851becFfde649e95c5727E8424cc92baa0Ecb71',
+  contractAddress: '0x43A31930339399871B268589106F2d4C39827E46',
   marketplaceIdentifier: 'Tanoti',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
